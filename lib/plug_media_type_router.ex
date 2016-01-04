@@ -1,0 +1,2 @@
+defmodule PlugMediaTypeRouter do
+end
