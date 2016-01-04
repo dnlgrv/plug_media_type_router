@@ -63,9 +63,9 @@ defmodule PlugMediaTypeRouterTest do
 
     assert conn.halted
     assert conn.resp_body == """
-    API version not supported: v3
+    Version not supported: v3
 
-    Currently supported API versions: v1, v2
+    Currently supported versions: v1, v2
     """
     assert conn.status == 400
   end

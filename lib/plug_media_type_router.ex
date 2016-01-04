@@ -40,9 +40,9 @@ defmodule PlugMediaTypeRouter do
       |> Enum.join(", ")
 
     """
-    API version not supported: #{version}
+    Version not supported: #{version}
 
-    Currently supported API versions: #{versions}
+    Currently supported versions: #{versions}
     """
   end
 
