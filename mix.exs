@@ -1,9 +1,15 @@
 defmodule PlugMediaTypeRouter.Mixfile do
   use Mix.Project
 
+  @description """
+  An Elixir Plug for routing requests to other Plugs based on the
+  request's Media Type
+  """
+
   def project do
     [app: :plug_media_type_router,
      name: "PlugMediaTypeRouter",
+     description: @description,
      source_url: "https://github.com/cazrin/plug_media_type_router",
      homepage_url: "https://github.com/cazrin/plug_media_type_router",
      version: "0.0.1",
@@ -11,7 +17,8 @@ defmodule PlugMediaTypeRouter.Mixfile do
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps,
-     docs: docs]
+     docs: docs,
+     package: package]
   end
 
   def application do
@@ -27,5 +34,11 @@ defmodule PlugMediaTypeRouter.Mixfile do
 
   defp docs do
     [extras: ["README.md"], main: "README"]
+  end
+
+  defp package do
+    [maintainers: ["Daniel Grieve"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/cazrin/plug_media_type_router"}]
   end
 end
