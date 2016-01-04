@@ -41,7 +41,7 @@ use PlugMediaTypeRouter,
 
 ## License
 
-See [LICENSE.md](LICENSE.md).
+See [LICENSE](LICENSE).
 
 [1]: https://en.wikipedia.org/wiki/Media_type
 [2]: https://developer.github.com/v3/media/
