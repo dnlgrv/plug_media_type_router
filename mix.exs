@@ -33,7 +33,7 @@ defmodule PlugMediaTypeRouter.Mixfile do
   end
 
   defp docs do
-    [extras: ["README.md"], main: "README"]
+    [extras: ["README.md"], main: "readme"]
   end
 
   defp package do
