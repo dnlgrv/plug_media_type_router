@@ -1,5 +1,7 @@
 # PlugMediaTypeRouter
 
+[![Build Status](https://travis-ci.org/cazrin/plug_media_type_router.svg?branch=master)](https://travis-ci.org/cazrin/plug_media_type_router)
+
 An Elixir Plug for routing requests to other Plugs based on the request's
 [Media Type][1]. See [this GitHub document][2] for more information on Media
 Types.
