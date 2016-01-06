@@ -31,7 +31,7 @@ need to provide to the Plug are:
 * Your vendor producer's name (e.g. "application/vnd.**my_app**.v1+json")
 
 ```elixir
-use PlugMediaTypeRouter,
+plug PlugMediaTypeRouter,
   default_version: "v2",
   name: "my_app",
   routers: %{
