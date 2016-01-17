@@ -26,7 +26,7 @@ defmodule PlugMediaTypeRouter.Mixfile do
   end
 
   defp deps do
-    [{:plug, "~> 1.0.0"},
+    [{:plug, ">= 1.0.0"},
 
      {:earmark, "~> 0.1.19", only: :docs},
      {:ex_doc, "~> 0.11", only: :docs}]
