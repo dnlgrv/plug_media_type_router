@@ -12,7 +12,7 @@ defmodule PlugMediaTypeRouter.Mixfile do
      description: @description,
      source_url: "https://github.com/cazrin/plug_media_type_router",
      homepage_url: "https://github.com/cazrin/plug_media_type_router",
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,

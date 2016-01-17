@@ -1,4 +1,20 @@
 defmodule PlugMediaTypeRouter do
+  @moduledoc ~S"""
+  A Plug for routing requests to other Plugs based on the request's Media Type.
+
+  ## Examples
+
+      PlugMediaTypeRouter.call(conn, [
+        default_version: "v2",
+        name: "my_app",
+        routers: %{
+          "v1" => MyApp.V1.Router,
+          "v2" => MyApp.V2.Router,
+          "v3" => MyApp.V3.Router
+        }
+      ])
+  """
+
   import Plug.Conn
   alias Plug.Conn.Status
 
