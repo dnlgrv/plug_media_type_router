@@ -10,9 +10,9 @@ defmodule PlugMediaTypeRouter.Mixfile do
     [app: :plug_media_type_router,
      name: "PlugMediaTypeRouter",
      description: @description,
-     source_url: "https://github.com/cazrin/plug_media_type_router",
-     homepage_url: "https://github.com/cazrin/plug_media_type_router",
-     version: "0.0.2",
+     source_url: "https://github.com/danielgrieve/plug_media_type_router",
+     homepage_url: "https://github.com/danielgrieve/plug_media_type_router",
+     version: "0.0.3",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -39,6 +39,6 @@ defmodule PlugMediaTypeRouter.Mixfile do
   defp package do
     [maintainers: ["Daniel Grieve"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/cazrin/plug_media_type_router"}]
+      links: %{"GitHub" => "https://github.com/danielgrieve/plug_media_type_router"}]
   end
 end
